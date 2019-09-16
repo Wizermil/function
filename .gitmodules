@@ -1,0 +1,18 @@
+[submodule "lib/benchmark"]
+	path = lib/benchmark
+	url = https://github.com/google/benchmark.git
+[submodule "lib/catch2"]
+	path = lib/catch2
+	url = https://github.com/catchorg/Catch2.git
+[submodule "lib/function2"]
+	path = lib/function2
+	url = https://github.com/Naios/function2.git
+[submodule "lib/Delegate"]
+	path = lib/Delegate
+	url = https://github.com/bdiamand/Delegate
+[submodule "lib/cxx_function"]
+	path = lib/cxx_function
+	url = https://github.com/potswa/cxx_function.git
+[submodule "lib/folly"]
+	path = lib/folly
+	url = https://github.com/facebook/folly.git
