@@ -6,7 +6,7 @@
 
 namespace wiz::details {
 
-    union policy_storage {
+    union alignas(64) policy_storage {
         mutable char small[sizeof(void*) * 2];
         void* large;
     };
