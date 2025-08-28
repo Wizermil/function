@@ -41,35 +41,35 @@ namespace wiz {
 
     // Functor
 
-//    BENCHMARK_TEMPLATE(constructor_default_test, functor);
-//    BENCHMARK_TEMPLATE(constructor_default_test, std::function<int(int)>);
-//    BENCHMARK_TEMPLATE(constructor_default_test, fu2::function<int(int)>);
-//    BENCHMARK_TEMPLATE(constructor_default_test, delegate::Delegate<int, int>);
-//    BENCHMARK_TEMPLATE(constructor_default_test, wiz::function<int(int)>);
-//
-//    BENCHMARK_TEMPLATE(constructor_invocable_test, functor, functor);
-//    BENCHMARK_TEMPLATE(constructor_invocable_test, std::function<int(int)>, functor);
-//    BENCHMARK_TEMPLATE(constructor_invocable_test, fu2::function<int(int)>, functor);
-//    BENCHMARK_TEMPLATE(constructor_invocable_test, delegate::Delegate<int, int>, functor);
-//    BENCHMARK_TEMPLATE(constructor_invocable_test, wiz::function<int(int)>, functor);
-//
-//    BENCHMARK_TEMPLATE(functor_invoke_test, functor, functor);
-//    BENCHMARK_TEMPLATE(functor_invoke_test, std::function<int(int)>, functor);
-//    BENCHMARK_TEMPLATE(functor_invoke_test, fu2::function<int(int)>, functor);
-//    BENCHMARK_TEMPLATE(functor_invoke_test, delegate::Delegate<int, int>, functor);
-//    BENCHMARK_TEMPLATE(functor_invoke_test, wiz::function<int(int)>, functor);
-//
-//    BENCHMARK_TEMPLATE(constructor_invocable_test, light_functor, light_functor);
-//    BENCHMARK_TEMPLATE(constructor_invocable_test, std::function<int(int)>, light_functor);
-//    BENCHMARK_TEMPLATE(constructor_invocable_test, fu2::function<int(int)>, light_functor);
-//    BENCHMARK_TEMPLATE(constructor_invocable_test, delegate::Delegate<int, int>, light_functor);
-//    BENCHMARK_TEMPLATE(constructor_invocable_test, wiz::function<int(int)>, light_functor);
-//
-//    BENCHMARK_TEMPLATE(functor_invoke_test, light_functor, light_functor);
-//    BENCHMARK_TEMPLATE(functor_invoke_test, std::function<int(int)>, light_functor);
-//    BENCHMARK_TEMPLATE(functor_invoke_test, fu2::function<int(int)>, light_functor);
-//    BENCHMARK_TEMPLATE(functor_invoke_test, delegate::Delegate<int, int>, light_functor);
-//    BENCHMARK_TEMPLATE(functor_invoke_test, wiz::function<int(int)>, light_functor);
+    BENCHMARK_TEMPLATE(constructor_default_test, functor);
+    BENCHMARK_TEMPLATE(constructor_default_test, std::function<int(int)>);
+    BENCHMARK_TEMPLATE(constructor_default_test, fu2::function<int(int)>);
+    BENCHMARK_TEMPLATE(constructor_default_test, delegate::Delegate<int, int>);
+    BENCHMARK_TEMPLATE(constructor_default_test, wiz::function<int(int)>);
+
+    BENCHMARK_TEMPLATE(constructor_invocable_test, functor, functor);
+    BENCHMARK_TEMPLATE(constructor_invocable_test, std::function<int(int)>, functor);
+    BENCHMARK_TEMPLATE(constructor_invocable_test, fu2::function<int(int)>, functor);
+    BENCHMARK_TEMPLATE(constructor_invocable_test, delegate::Delegate<int, int>, functor);
+    BENCHMARK_TEMPLATE(constructor_invocable_test, wiz::function<int(int)>, functor);
+
+    BENCHMARK_TEMPLATE(functor_invoke_test, functor, functor);
+    BENCHMARK_TEMPLATE(functor_invoke_test, std::function<int(int)>, functor);
+    BENCHMARK_TEMPLATE(functor_invoke_test, fu2::function<int(int)>, functor);
+    BENCHMARK_TEMPLATE(functor_invoke_test, delegate::Delegate<int, int>, functor);
+    BENCHMARK_TEMPLATE(functor_invoke_test, wiz::function<int(int)>, functor);
+
+    BENCHMARK_TEMPLATE(constructor_invocable_test, light_functor, light_functor);
+    BENCHMARK_TEMPLATE(constructor_invocable_test, std::function<int(int)>, light_functor);
+    BENCHMARK_TEMPLATE(constructor_invocable_test, fu2::function<int(int)>, light_functor);
+    BENCHMARK_TEMPLATE(constructor_invocable_test, delegate::Delegate<int, int>, light_functor);
+    BENCHMARK_TEMPLATE(constructor_invocable_test, wiz::function<int(int)>, light_functor);
+
+    BENCHMARK_TEMPLATE(functor_invoke_test, light_functor, light_functor);
+    BENCHMARK_TEMPLATE(functor_invoke_test, std::function<int(int)>, light_functor);
+    BENCHMARK_TEMPLATE(functor_invoke_test, fu2::function<int(int)>, light_functor);
+    BENCHMARK_TEMPLATE(functor_invoke_test, delegate::Delegate<int, int>, light_functor);
+    BENCHMARK_TEMPLATE(functor_invoke_test, wiz::function<int(int)>, light_functor);
 
     BENCHMARK_TEMPLATE(functor_invoke_test, heavy_functor, heavy_functor);
     BENCHMARK_TEMPLATE(functor_invoke_test, std::function<int(int)>, heavy_functor);
